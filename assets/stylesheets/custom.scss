@@ -1,0 +1,44 @@
+@import "../reveal-js/css/theme/template/mixins";
+@import "../reveal-js/css/theme/template/settings";
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+
+$mainFont: 'Noto Serif', 'serif';
+$headingFont: 'Noto Serif', 'serif';
+$headingColor: #000000;
+$mainColor: #000000;
+$backgroundColor: #F7FAFC;
+$linkColor: #90cdf0;
+$codeFont: 'Iosevka', monospace;
+
+pre {
+  border-width: 2px;
+  border-style: solid;
+  border-color: #4A5568;
+
+  border-radius: 0.25rem;
+}
+
+h1, h2, h3, h4 {
+  text-transform: none !important;
+}
+
+
+
+@import "../reveal-js/css/theme/template/theme";
+
+img {
+  border-style: none !important;
+}
+
+.reveal .slide-number {
+  font-size: 16pt;
+  left: 8px;
+  right: auto !important;
+}
+
+#logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}

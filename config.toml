@@ -1,0 +1,21 @@
+baseURL = "https://slides.cronokirby.com/"
+languageCode = "en-us"
+title = "slides"
+theme = "reveal-hugo"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[outputFormats.Reveal]
+baseName = "index"
+mediaType = "text/html"
+isHTML = true
+
+[markup.highlight]
+codeFences = false
+
+[params.reveal_hugo]
+highlight_theme = "idea"
+slide_number = true
+custom_theme = "stylesheets/custom.scss"
+custom_theme_compile = true
