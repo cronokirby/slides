@@ -33,12 +33,12 @@ Supervisor: Bryan Ford
 
 ### Humans use Big Numbers!
 
-![](res/5.png)
+![](./res/5.png)
 
 ---
 ### Big Numbers
 
-![](res/1.png)
+![](./res/1.png)
 
 {{% /section %}}
 
@@ -49,26 +49,26 @@ Supervisor: Bryan Ford
 
 ### Making rocks think
 
-![](res/4.jpg)
+![](./res/4.jpg)
 
 ---
 
 
 ### Schoolbook Arithmetic
 
-![](res/6.png)
+![](./res/6.png)
 
 
 ---
 
 ### Multiple Digits
 
-![](res/7.png)
+![](./res/7.png)
 
 
 ---
 
-![](res/17.png)
+![](./res/17.png)
 
 ---
 
@@ -86,24 +86,24 @@ Limbs: $\\{0, 1, \ldots, 2^{W} - 1\\}$
 
 ### Timing Attacks
 
-![](res/9.png)
+![](./res/9.png)
 
 ---
 
 ### Leaking Length
 
-![](res/18.png)
+![](./res/18.png)
 
 ---
 
 ### Leaking Values
 
-![](res/10.png)
+![](./res/10.png)
 
 ---
 
 ### IRL
-![](res/13.png)
+![](./res/13.png)
 
 
 {{% /section %}}
@@ -114,7 +114,7 @@ Limbs: $\\{0, 1, \ldots, 2^{W} - 1\\}$
 
 ### Solutions
 
-![](res/15.png)
+![](./res/15.png)
 
 ---
 
@@ -124,7 +124,7 @@ Limbs: $\\{0, 1, \ldots, 2^{W} - 1\\}$
 
 ### Announced Length
 
-![](res/16.png)
+![](./res/16.png)
 
 ---
 
