@@ -160,3 +160,7 @@ https://github.com/cronokirby/safenum
 ---
 
 ### Questions?
+
+---
+
+![](./res/3.png)
