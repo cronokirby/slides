@@ -1,15 +1,17 @@
 @import "../reveal-js/css/theme/template/mixins";
 @import "../reveal-js/css/theme/template/settings";
 
-@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap");
 
-$mainFont: 'Noto Serif', 'serif';
-$headingFont: 'Noto Serif', 'serif';
+
+$mainFont: 'IBM Plex Serif', 'serif';
+$headingFont: 'IBM Plex Serif', 'serif';
 $headingColor: #000000;
 $mainColor: #000000;
 $backgroundColor: #F7FAFC;
 $linkColor: #90cdf0;
-$codeFont: 'Iosevka', monospace;
+$codeFont: 'IBM Plex Mono', monospace;
 
 pre {
   border-width: 2px;
