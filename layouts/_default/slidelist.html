@@ -1,0 +1,9 @@
+{{define "main"}}
+<section class="section">
+  <ul>
+    {{ range .Sections.ByPublishDate.Reverse }}
+    <li><a class="" href="{{ .Permalink }}">{{.Title}}</a></li>
+    {{ end }}
+  </ul>
+</section>
+{{end}}

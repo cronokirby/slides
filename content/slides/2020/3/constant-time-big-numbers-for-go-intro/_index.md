@@ -1,6 +1,7 @@
 +++
-title = "My presentation"
+title = "Constant Time Big Numbers (For Go)"
 outputs = ["Reveal"]
+date = "2021-03-19"
 +++
 
 ### Constant Time Big Numbers
