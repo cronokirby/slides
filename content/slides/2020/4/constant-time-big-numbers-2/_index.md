@@ -29,6 +29,9 @@ Supervisor: Bryan Ford
 
 ### Notable Techniques
 
+- Limb by Limb modular reduction
+- **Montgomery Multiplication**
+
 ---
 
 ### The Ceiling
@@ -45,9 +48,19 @@ Supervisor: Bryan Ford
 
 ### Exponentiation
 
+$$x^d \mod m$$
+
+---
+
+### Large Results
+
 ---
 
 ### Very Naive Algorithm
+
+```go
+func ModExp(x, d)
+```
 
 ---
 
