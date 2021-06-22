@@ -15,7 +15,7 @@ Supervisor: Bryan Ford
 
 ### Overview
 
-- Performance improvements
+- Since last time
 - Constant-Time Ceiling
 - A day in my shoes: Exponentiation
 
@@ -23,7 +23,7 @@ Supervisor: Bryan Ford
 
 ### Reminder
 
-Library: https://github.com/cronokirby
+Library: https://github.com/cronokirby/safenum
 
 Operations on large numbers, for Cryptography.
 
