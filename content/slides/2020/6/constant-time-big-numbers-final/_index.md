@@ -107,19 +107,46 @@ Somewhat big
 
 ### Timing
 
+![](./res/13.png)
+
 ---
 
 ### Guessing Passwords
 
+![](./res/10.png)
+
+---
+
+![](./res/11.png)
+
+---
+
+![](./res/12.png)
+
 ---
 
 ### Side-Channel Overview
+
+Subtle Behavior:
+
+- Caches
+- Branch Prediction
+
+---
+
+### Further Information
+
+![](./res/14.png)
 
 {{% /section %}}
 
 ---
 
 ### Threat Model
+
+- Loops leak the number of iterations
+- Memory accesses leak addresses
+- Branching leaks condition
 
 ---
 
@@ -143,13 +170,45 @@ Somewhat big
 
 ### Not Constant-Time
 
+![](./res/15.png)
+
+---
+
+### Why? Bad Algorithms
+
+![](./res/16.png)
+
+---
+
+### Why? Padding
+
+![](./res/17.png)
+
 ---
 
 ### in `go/crypto`
 
+- Extensively in **RSA**, and **DSA**
+- **ECC**: Elliptic Curve interface uses `big.Int`
+- Only **P384** uses `big.Int` for field arithmetic
+
 ---
 
-### End Section
+### Mitigations
+
+In RSA: *blinding*:
+
+Instead of:
+
+$$
+c^d \mod N
+$$
+
+Calculate:
+
+$$
+\frac{1}{r} (c \cdot r^e)^d \mod N
+$$
 
 {{% /section %}}
 
@@ -159,17 +218,17 @@ Somewhat big
 
 ### Our Library
 
----
-
-### True vs Announced Size
+![](./res/17.png)
 
 ---
 
-### Deciding the Size
+![](./res/18.png)
 
 ---
 
 ### Constant-Time Choice
+
+![](./res/8.gif)
 
 {{% /section %}}
 
@@ -179,15 +238,22 @@ Somewhat big
 
 ### Performance: Operations
 
+![](./res/20.png)
+![](./res/21.png)
+
 ---
 
 ### Performance: Cryptography
+
+![](./res/22.png)
 
 {{% /section %}}
 
 ---
 
-### `go/crypto`
+### Patching RSA
+
+![](./res/19.png)
 
 ---
 
@@ -195,13 +261,17 @@ Somewhat big
 
 ### Timeline
 
+![](./res/23.png)
+
 ---
 
-### Principal Artifact
+### The most important artifact?
 
 ---
 
 ### Understanding!
+
+![](./res/24.jpg)
 
 {{% /section %}}
 
@@ -209,6 +279,15 @@ Somewhat big
 
 ### Further Work
 
+- Verifying security properties
+- Improving performance: Assembly?
+- More scenarios: **ECC**, **PQC**?
+
 ---
 
 ### In Summary
+
+![](./res/7.jpg)
+
+We made an alternative to `big.Int` for Cryptography.
+It's only 2x slower.
