@@ -31,9 +31,81 @@ Supervisor: Prof. Bryan Ford
 
 ---
 
+### Useful in Cryptography
+
+- $\mathbb{N}$ (Natural Numbers)
+- $\mathbb{Z}/N \mathbb{Z}$ (Modular Arithmetic)
+- $\mathbb{F}_p$ (Prime Fields)
+
+---
+
+### RSA
+
+Public key $(e, N)$, encrypt $m$ with:
+
+$$
+m^e \mod N
+$$
+
+$N \approx 2048$ bits
+
+---
+
+### Too Big!
+
+![](./res/5.png)
+
+---
+
+### Elliptic Curve Cryptography
+
+![](./res/6.jpg)
+
+---
+
+### Prime Fields!
+
+$\mathbb{Z}/p\mathbb{Z}$
+
+for example:
+
+$$
+p = 2^{255} - 19
+$$
+
+Somewhat big
+
+---
+
 ### Second Section
 
 {{% /section %}}
+
+---
+
+![](./res/2.png)
+
+---
+
+### Go
+
+![](./res/4.jpg)
+
+---
+
+### Our Library
+
+---
+
+### Performance
+
+---
+
+### `go/crypto`
+
+---
+
+### Further Work
 
 ---
 
