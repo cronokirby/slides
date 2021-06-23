@@ -131,6 +131,7 @@ Subtle Behavior:
 
 - Caches
 - Branch Prediction
+- Microcode Pipelines
 
 ---
 
@@ -142,11 +143,24 @@ Subtle Behavior:
 
 ---
 
+{{% section %}}
+
 ### Threat Model
 
 - Loops leak the number of iterations
 - Memory accesses leak addresses
 - Branching leaks condition
+
+---
+
+### Constant-Time Computing Base
+
+- Addition `+`
+- Multiplication `*`
+- Logical Operations `|, &, ^`
+- Shifts `<<, >>`
+
+{{% /section %}}
 
 ---
 
@@ -182,7 +196,7 @@ Subtle Behavior:
 
 ### Why? Padding
 
-![](./res/17.png)
+![](./res/24.png)
 
 ---
 
@@ -210,6 +224,12 @@ $$
 \frac{1}{r} (c \cdot r^e)^d \mod N
 $$
 
+---
+
+### There be Dragons?
+
+![](./res/25.png)
+
 {{% /section %}}
 
 ---
@@ -219,6 +239,14 @@ $$
 ### Our Library
 
 ![](./res/17.png)
+
+---
+
+### Operations
+
+- Modular addition, subtraction, exponentation, etc.
+- Modular square roots
+- "Raw" addition and multiplication
 
 ---
 
