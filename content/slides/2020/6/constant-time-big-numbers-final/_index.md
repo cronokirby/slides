@@ -155,11 +155,35 @@ Somewhat big
 
 ---
 
+{{% section %}}
+
 ### Our Library
 
 ---
 
-### Performance
+### True vs Announced Size
+
+---
+
+### Deciding the Size
+
+---
+
+### Constant-Time Choice
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
+### Performance: Operations
+
+---
+
+### Performance: Cryptography
+
+{{% /section %}}
 
 ---
 
@@ -167,8 +191,24 @@ Somewhat big
 
 ---
 
+{{% section %}}
+
+### Timeline
+
+---
+
+### Principal Artifact
+
+---
+
+### Understanding!
+
+{{% /section %}}
+
+---
+
 ### Further Work
 
 ---
 
-### Final Slide
+### In Summary
