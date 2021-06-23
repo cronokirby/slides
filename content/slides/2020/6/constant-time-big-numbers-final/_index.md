@@ -77,19 +77,81 @@ Somewhat big
 
 ---
 
-### Second Section
+### Implementation Strategies
+
+- Hand-written implementation
+- Generated (e.g. FiatCrypto)
+- Dynamic (`big.Int`, our library)
 
 {{% /section %}}
 
 ---
 
+{{% section %}}
+
 ![](./res/2.png)
 
 ---
 
+### Implementations in Theory
+
+![](./res/8.jpeg)
+
+---
+
+### Implementations in Practice
+
+![](./res/7.jpg)
+
+---
+
+### Timing
+
+---
+
+### Guessing Passwords
+
+---
+
+### Side-Channel Overview
+
+{{% /section %}}
+
+---
+
+### Threat Model
+
+---
+
+{{% section %}}
+
 ### Go
 
 ![](./res/4.jpg)
+
+---
+
+### `big.Int`
+
+![](./res/9.png)
+
+---
+
+![](./res/3.png)
+
+---
+
+### Not Constant-Time
+
+---
+
+### in `go/crypto`
+
+---
+
+### End Section
+
+{{% /section %}}
 
 ---
 
